@@ -14,4 +14,5 @@ let generateAdvice = () => {
     });
 }
 
+window.addEventListener("load", generateAdvice);
 generate.addEventListener("click", generateAdvice);
